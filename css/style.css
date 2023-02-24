@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes slide-in {
+  0% { transform: translateY(-100%); }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(46, 46, 46);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgba(128, 128, 128, 0.363);
+  width: 550px;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.11);
+  border: 1px solid rgba(0, 0, 0, 0.164);
+  position: relative;
+}
+
+.theme {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.title {
+  display: flex;
+}
+
+.realizar-consulta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+input {
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: gray;
+  font-size: 15px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.226);
+}
+
+input::placeholder {
+  color: rgb(34, 34, 34);
+}
+
+input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+#btn {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.226);
+  cursor: pointer;
+  font-size: 15px;
+  background-color: rgb(255, 251, 0);
+}
+
+#btn:hover {
+  background-color: rgb(201, 198, 61);
+  transition: 0.5s;
+}
+
+#btn:not(:hover) {
+  transition: 0.5s;
+}
+
+#btn:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.l1-margintop {
+  margin-top: 35px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#consultas {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.li-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+dialog {
+  width: 350px;
+  height: 100px;
+  font-size: 20px;
+  background-color: rgb(236, 236, 236);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.432);
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: fade-in 0.5s forwards;
+  animation: slide-in 0.5s forwards;
+}
+
+dialog p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.267);
+}
+
+dialog button {
+  width: 30px;
+  height: 20px;
+  font-size: 15px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.425);
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.5s;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+dialog button:hover {
+  background-color: rgb(243, 99, 99);
+}
+
+dialog button:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+@media (max-width: 587px) {
+  .container {
+    margin: 30px;
+    width: 400px;
+    padding: 30px;
+  }
+
+  .theme {
+    width: 30px;
+  }
+
+  dialog {
+    width: 300px;
+    height: 80px;
+    font-size: 15px;
+  }
+  
+}

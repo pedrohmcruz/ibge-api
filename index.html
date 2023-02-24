@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Usando API do IBGE com JavaScript">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <title>API - IBGE</title>
+</head>
+
+<body>
+  <div class="container">
+    <img class="theme" src="./images/sol.png" alt="Light theme" width="40px" tema="dark">
+
+    <div class="title">
+      <h1>API IBGE - Países</h1>
+    </div>
+
+    <div class="realizar-consulta">
+      <input id="input" type="text" placeholder="Sigla do país">
+      <button id="btn">Consultar</button>
+    </div>
+    
+    <div class="li-left">
+      <ul id="consultas">
+      </ul>
+    </div>
+  </div> 
+
+  <dialog>
+    <p>Por favor, preencha o campo.</p>
+    <button id="btn-close">OK</button>
+  </dialog>
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
