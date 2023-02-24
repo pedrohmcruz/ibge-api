@@ -8,4 +8,4 @@
 
 LINK DA PÁGINA: https://pedrohmcruz.github.io/ibge-api/
 
-![2023-02-24_15-20-14_AdobeExpress](https://user-images.githubusercontent.com/96451066/221262420-ab5cc02d-2d59-4928-9c7b-4b3a1f0a6959.gif)
+![2023-02-24 15-20-14 (1)](https://user-images.githubusercontent.com/96451066/221262923-d0fa2129-e052-43a2-833b-f47690effac0.gif)
