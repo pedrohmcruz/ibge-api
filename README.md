@@ -7,3 +7,5 @@
 </ul>
 
 LINK DA PÁGINA: https://pedrohmcruz.github.io/ibge-api/
+
+![2023-02-24-15-20-14](https://user-images.githubusercontent.com/96451066/221261534-9fd314d3-e0ca-488e-a86f-aa155c14b5d9.gif)
