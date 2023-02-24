@@ -6,6 +6,6 @@
   <li>Usado para adquirir conhecimentos práticos sobre as tecnologias já aprendidas até o momento</li>
 </ul>
 
-LINK DA PÁGINA: https://pedrohmcruz.github.io/ibge-api/
+PROJETO FUNCIONANDO: 
 
 ![2023-02-24-15-20-14](https://user-images.githubusercontent.com/96451066/221263090-98e79945-bd48-4c7d-b67f-c619d6ee86c6.gif)
